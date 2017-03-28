@@ -48,7 +48,6 @@ namespace TTL_Patcher
         private void selectOS_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (selectOS.SelectedIndex == 1) ttlBox.Text = "64";
-            else if (selectOS.SelectedIndex == 2) ttlBox.Text = "128";
             else ttlBox.Text = "64";
         }
 
